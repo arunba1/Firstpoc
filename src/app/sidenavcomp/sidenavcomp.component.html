@@ -1,0 +1,15 @@
+<div class="d-flex flex-row">
+<div class="smallsidebar" (mouseenter)="mouseenterfunctionality()" (mouseleave)="mouseleavefunctionality()">
+    <p-sidebar [(visible)]="sidebarVisible" showCloseIcon="false" closeOnEscape="false" [modal]="false" [dismissible]="false" [styleClass]="displaysidebar" [blockScroll]="false" [transitionOptions]="'100ms'">
+        <h3>Sidebar</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+        </p>
+    </p-sidebar>
+</div>
+<div class="d-flex flex-fill">
+    <div class="mt-5">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+</div>

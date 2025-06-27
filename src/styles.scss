@@ -1,0 +1,54 @@
+.bigsidebar {
+    background: #ffffff;
+    direction: ltr;
+    max-width: 280px;
+    min-width: 280px;
+    transition: margin-left .35s ease-in-out, left .35s ease-in-out, margin-right .35s ease-in-out, right .35s ease-in-out;
+  }
+
+  .smallsidebar{
+    max-width: 10% !important;
+  }
+
+  .smallsidebar{
+    min-width: 5.3rem;
+    max-width: 5.3rem !important;
+  }
+  
+  .bigsidebar {
+    animation: bigsidebaranimation .30s linear
+  }
+  
+  .smallsidebar {
+    animation: smallsidebaranimation .30s linear
+  }
+  
+  
+  @keyframes bigsidebaranimation {
+    0% {
+      opacity: 0;
+      transform: translate(-100%);
+      transition: transform 0.12s cubic-bezier(0, 0, 0.2, 1),
+        opacity 0.12s cubic-bezier(0, 0, 0.2, 1);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+  
+  @keyframes smallsidebaranimation {
+    0% {
+      opacity: 1;
+      min-width: 15.3rem;
+      transition: transform 0.12s cubic-bezier(0, 0, 0.2, 1),
+        opacity 0.12s cubic-bezier(0, 0, 0.2, 1);
+    }
+  
+    to {
+      min-width: 5.3rem;
+      transform: translate(0%);
+    }
+  }
+  

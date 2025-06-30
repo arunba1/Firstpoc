@@ -3,10 +3,11 @@ import { SidebarModule } from 'primeng/sidebar';
 import { ButtonModule } from 'primeng/button';
 import { PrimeNGConfig } from 'primeng/api';
 import { RouterOutlet,RouterLink } from '@angular/router';
+import { FooterComponent } from '../footer/footer.component';
 @Component({
   selector: 'app-sidenavcomp',
   standalone: true,
-  imports: [SidebarModule,ButtonModule,RouterOutlet,RouterLink],
+  imports: [SidebarModule,ButtonModule,RouterOutlet,RouterLink,FooterComponent],
   templateUrl: './sidenavcomp.component.html',
   styleUrl: './sidenavcomp.component.scss'
 })

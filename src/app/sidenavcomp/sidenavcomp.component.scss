@@ -1,0 +1,30 @@
+::ng-deep .p-panelmenu .p-menuitem-text {
+//   color: rgb(10, 160, 213);
+  font-weight: 500;
+}
+
+::ng-deep .p-panelmenu .pi {
+  color: #181818;
+  padding: 8px;
+}
+
+::ng-deep .p-panelmenu .p-menuitem-link {
+  text-decoration: none !important;
+  color: #181818;
+}
+
+::ng-deep .p-panelmenu-header .p-panelmenu-header-content .p-panelmenu-header-action{
+    padding: 10px;
+    color: #181818;
+    text-decoration: none !important;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+::ng-deep .p-submenu-list .p-menuitem-link{
+    text-decoration: none !important;
+}
+
+::ng-deep .p-stepper-header .p-stepper-action{
+    text-decoration: none;
+}

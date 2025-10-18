@@ -2,9 +2,10 @@
 <div class="smallsidebar" (mouseenter)="mouseenterfunctionality()" (mouseleave)="mouseleavefunctionality()">
     <p-sidebar [(visible)]="sidebarVisible" showCloseIcon="false" closeOnEscape="false" [modal]="false" [dismissible]="false" [styleClass]="displaysidebar" [blockScroll]="false" [transitionOptions]="'100ms'">
         
-        <div class="d-flex flex-column h-100">       
-        <h3>Sidebar</h3>
-        <p-panelMenu [model]="menuitem" [multiple]="true"/>
+        <div class="d-flex flex-column h-100" style="background-color: lightgray;">       
+        <!-- <h3>Sidebar</h3> -->
+         <div></div>
+        <p-panelMenu [model]="menuitem" [multiple]="true" class="mt-5"/>
         </div>
     </p-sidebar>
 </div>

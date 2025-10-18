@@ -27,8 +27,8 @@ export class SidenavcompComponent implements OnInit{
   ngOnInit(): void {
     this.Primengconfig.ripple=true;
     this.menuitemBig = [
-            { label: 'New Application', icon: 'pi pi-sparkles' },
-            { label: 'Search Our Product', icon: 'pi pi-search' }
+            { label: 'New Course Onboard', icon: 'pi pi-sparkles' },
+            { label: 'Search Our Products', icon: 'pi pi-search' }
         ];
 
     this.menuitemSmall = [
